@@ -212,10 +212,17 @@ input[type=submit] {
     .header{
         position: static;
     }
-    
-    body {
+    body :not header{
         float: none;
-        width: 960px;
+        width: 500px;
+        height: 200px;
+    }
+    .parent-div {
+        width: 500px;
+        height: 200px;
+    }
+    h2 {
+        width: 500px;
     }
 }
 
