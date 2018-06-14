@@ -236,8 +236,24 @@ input[type=submit] {
         width: 66%;
     }
 
-    .Image {
+    .Image, .header-right {
         width: 100%;
         height: auto;
+    }
+
+    .folio-div {
+        width: 80%
+    }
+
+    .textb, .textd {
+        left: 80px;
+    }
+
+    .textb {
+        top: 1647px;
+    }
+
+    .textd {
+        top: 2057px;
     }
 }
