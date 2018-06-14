@@ -205,5 +205,37 @@ input[type=submit] {
 
 .texte {
     top: 1237px;
-    left: 80px;
+    left: 80px; 
+}
+
+@media screen and (max-width: 980px) {
+    .header{
+        position: static;
+    }
+    
+    body {
+        float: none;
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        position: static;
+    }
+    
+    body {
+        float: none;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header{
+        position: static;
+    }
+    
+    body {
+        float: none;
+        width: 250px;
 }
