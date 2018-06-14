@@ -107,7 +107,7 @@ body {
     padding: 0px 12px;
 }
 
-.content {
+.container {
     flex: 1 0 auto;
     min-height: calc(100vh - 70px);
 }
@@ -213,7 +213,7 @@ input[type=submit] {
         position: static;
     }
     .parent-div, h2{
-        width: 50%;
+        width: 960px;
     }
 }
 
@@ -222,8 +222,8 @@ input[type=submit] {
         position: static;
     }
     
-    .content{
-        width: 30%;
+    .parent-div, h2{
+        width: 80%;
     }
 }
 
@@ -232,7 +232,12 @@ input[type=submit] {
         position: static;
     }
     
-    body {
-        float: none;
-        width: 250px;
+    .parent-div, h2 {
+        width: 66%;
+    }
+
+    .Image {
+        width: 100%;
+        height: auto;
+    }
 }
