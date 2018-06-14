@@ -208,36 +208,26 @@ input[type=submit] {
     left: 80px; 
 }
 
-@media screen and (max-width: 980px) {
-    .header{
+@media screen and (max-width:980px) {
+    .header {
         position: static;
     }
-    body :not header{
-        float: none;
-        width: 500px;
-        height: 200px;
-    }
-    .parent-div {
-        width: 500px;
-        height: 200px;
-    }
-    h2 {
-        width: 500px;
+    .parent-div, h2{
+        width: 50%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
     .header{
         position: static;
     }
     
-    body {
-        float: none;
-        width: 500px;
+    .content{
+        width: 30%;
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width:640px) {
     .header{
         position: static;
     }
